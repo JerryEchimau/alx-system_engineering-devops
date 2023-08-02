@@ -1,2 +1,2 @@
 #!/bin/bash
-cwd=$(pwd)
+echo $(pwd)

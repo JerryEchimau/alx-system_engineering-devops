@@ -17,4 +17,4 @@ Shell permissions exercise
 15. chown -R vincent:staff . - changes the owner and group owner of all files and directories in the cwd recursively
 16. chown -h - changes the owner while specifying that it's a symbolic link
 17. chown —from=guillaume Betty hello - conditionally changes the owner of a file if it is woned by the specified user
-18. 
+18. telnet towel.blinkenlights.nl -  connects to the blinkenlights server and plays episode 4 of starwars

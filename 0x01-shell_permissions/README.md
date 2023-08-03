@@ -10,5 +10,5 @@ Shell permissions exercise
 8. chmod ugo+x - gives all users (u,g, and o) permission to eecute (x)
 9. chmod 007 - gives only the other users all permissions (7)
 10. chmod 753 - translates to (rwx - r-x - -wx) permissions for all three category of users
-11. chmod --reference-olleh - checks the permissions in file olleh and referes them to the file indicated, in this case, hello
+11. chmod --reference=olleh - checks the permissions in file olleh and referes them to the file indicated, in this case, hello
 12.    

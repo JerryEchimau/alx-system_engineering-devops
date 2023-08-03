@@ -10,5 +10,6 @@ Shell permissions exercise
 8. chmod ugo+x - gives all users (u,g, and o) permission to eecute (x)
 9. chmod 007 - gives only the other users all permissions (7)
 10. chmod 753 - translates to (rwx - r-x - -wx) permissions for all three category of users
-11. chmod --reference=olleh - checks the permissions in file olleh and referes them to the file indicated, in this case, hello
-12.    
+11. chmod --referenc=olleh - checks the permissions in file olleh and referes them to the file indicated, in this case, hello
+12. chmod -R +X . - this use recursive command to change the permission of a directory and the +X gives eecute permissions to these files and directories
+13. chmod 

@@ -12,4 +12,5 @@ Shell permissions exercise
 10. chmod 753 - translates to (rwx - r-x - -wx) permissions for all three category of users
 11. chmod --referenc=olleh - checks the permissions in file olleh and referes them to the file indicated, in this case, hello
 12. chmod -R +X . - this use recursive command to change the permission of a directory and the +X gives eecute permissions to these files and directories
-13. chmod 
+13. mkdir -m 751 - creates a directory and the -m creates the permission of the created directory as 751 in this case
+14. chmod 

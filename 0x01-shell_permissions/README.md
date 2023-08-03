@@ -15,4 +15,5 @@ Shell permissions exercise
 13. mkdir -m 751 - creates a directory and the -m creates the permission of the created directory as 751 in this case
 14. chgrp - command that changes group owner
 15. chown -R vincent:staff . - changes the owner and group owner of all files and directories in the cwd recursively
-16.   
+16. chown -h - changes the owner while specifying that it's a symbolic link
+17. 

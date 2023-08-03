@@ -5,4 +5,5 @@ Shell permissions exercise
 3. id -Gn - this prints all groups that the current user is part of
 4. chown betty hello - changes the owner of the file called hello to user betty
 5. touch hello - creates an empty file called hello
-6. 
+6. chmod u+x - is a command that gives the owner of the file permission to execute
+7. 

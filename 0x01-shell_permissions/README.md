@@ -14,4 +14,5 @@ Shell permissions exercise
 12. chmod -R +X . - this use recursive command to change the permission of a directory and the +X gives eecute permissions to these files and directories
 13. mkdir -m 751 - creates a directory and the -m creates the permission of the created directory as 751 in this case
 14. chgrp - command that changes group owner
-15.  
+15. chown -R vincent:staff . - changes the owner and group owner of all files and directories in the cwd recursively
+16.   

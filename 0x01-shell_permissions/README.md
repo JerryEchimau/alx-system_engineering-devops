@@ -8,4 +8,5 @@ Shell permissions exercise
 6. chmod u+x - is a command that gives the owner of the file permission to execute
 7. chmod u+x,g+x,o+r - gives the owner (u) and group (g) the permission to execute (x) and other (o) users the permission to only read (r)
 8. chmod ugo+x - gives all users (u,g, and o) permission to eecute (x)
-9. 
+9. chmod 007 - gives only the other users all permissions (7)
+10.  

@@ -9,4 +9,5 @@ Shell permissions exercise
 7. chmod u+x,g+x,o+r - gives the owner (u) and group (g) the permission to execute (x) and other (o) users the permission to only read (r)
 8. chmod ugo+x - gives all users (u,g, and o) permission to eecute (x)
 9. chmod 007 - gives only the other users all permissions (7)
-10.  
+10. chmod 753 - translates to (rwx - r-x - -wx) permissions for all three category of users
+11.   

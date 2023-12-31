@@ -2,7 +2,7 @@
 In this project, I learnt of all the basics of Shell and script writing <br>
 Here are the tasks in this project
 
-## \033[31mTasks\033[0m
+## Tasks
 ### 0. Where am I?
 - Learnt how to use ``$PWD`` to print absolute working path
 

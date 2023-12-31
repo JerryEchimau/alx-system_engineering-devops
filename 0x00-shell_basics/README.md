@@ -2,7 +2,7 @@
 In this project, I learnt of all the basics of Shell and script writing <br>
 Here are the tasks in this project
 
-<span style="color:red;">## Tasks</span>
+## <span style="color:red;"> Tasks</span>
 ### 0. Where am I?
 - Learnt how to use ``$PWD`` to print absolute working path
 

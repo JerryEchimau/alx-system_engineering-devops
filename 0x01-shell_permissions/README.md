@@ -54,4 +54,18 @@ Here are the tasks in this project:<br>
 - we use ``chgrp`` to change the group owner to a certain individual like ``school`` of a file
 
 ### 14. Owner and group
-- chown 
+- ``chown`` (change owner) changes the owner of a file(s) or directory(s) in this syntax and order: ``chown new_owner:new_group/new_group_owner [filename]`` with a "-R" command after chown when using [directory] instead of [filename]; and the ":" can be ignored when only changing the "new_owner."
+- in this case chown is used with '-R' argument since it is directories (all) that are changing (technically all files in the directories)
+- then the ":" has to be used since we are changing both ``new_owner`` and ``new_group``
+
+
+## ADvanced Tasks
+### 15. Symbolic links
+- Symbolic links are simply files that contain the PATH (Symbols to) another file or a directory (Remember, everything in a computer is either a file or a directory)
+- changing a file through the link does not affect the original file but changing the original file affects the file in the link.
+- a link allows you to view and manipulate the contents of a file in another different place, from where you are
+- in older systems (and others today), a link would simply take you to that directory where the file is, or simply open or execute the file
+
+- in our case, we treat the link as a file and assume we are changing the owner and group owner of the file using ``chown``
+
+### 

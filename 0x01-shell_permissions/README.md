@@ -1,20 +1,57 @@
-Shell permissions exercise
+# 0x01. Shell, permissions
+This directory containts the 0x01. Shell, permissions project with its tasks. <br>
+Here, we learnt about all the permissions of a file in shell <br>
 
-1. su betty - switches the current user to user betty using the su command
-2. whoami - this gets the effective username of the current user
-3. id -Gn - this prints all groups that the current user is part of
-4. chown betty hello - changes the owner of the file called hello to user betty
-5. touch hello - creates an empty file called hello
-6. chmod u+x - is a command that gives the owner of the file permission to execute
-7. chmod u+x,g+x,o+r - gives the owner (u) and group (g) the permission to execute (x) and other (o) users the permission to only read (r)
-8. chmod ugo+x - gives all users (u,g, and o) permission to eecute (x)
-9. chmod 007 - gives only the other users all permissions (7)
-10. chmod 753 - translates to (rwx - r-x - -wx) permissions for all three category of users
-11. chmod --referenc=olleh - checks the permissions in file olleh and referes them to the file indicated, in this case, hello
-12. chmod -R +X . - this use recursive command to change the permission of a directory and the +X gives eecute permissions to these files and directories
-13. mkdir -m 751 - creates a directory and the -m creates the permission of the created directory as 751 in this case
-14. chgrp - command that changes group owner
-15. chown -R vincent:staff . - changes the owner and group owner of all files and directories in the cwd recursively
-16. chown -h - changes the owner while specifying that it's a symbolic link
-17. chown —from=guillaume Betty hello - conditionally changes the owner of a file if it is woned by the specified user
-18. telnet towel.blinkenlights.nl -  connects to the blinkenlights server and plays episode 4 of starwars
+Here are the tasks in this project:<br>
+## Tasks
+### 0. My name is Betty
+- Learnt how to use ``su`` (switch user) to switch between users
+- when `su`` is used without a command after, it resorts to the super user
+- switching to specific user requires that you include the name of the user after
+
+### 1. Who am I
+- ``whoami`` command mentions the name of the current user
+
+### 2. Groups
+- ``id`` is used to display the user and group information of the current user
+
+### 3. New owner
+- ``chown`` changes the file owner
+- syntax is ``chown [user] [file]``
+
+### 4. Empty!
+- ``touch`` command creates a new empty file
+
+### 5. Execute
+- ``chmod`` (change mode) changes the read(r), write(w), and execute(x) permissions of a file to different users
+
+### 6. Multiple permissions
+- ``chmod`` can be used to change multiple modes for multiple users if each is separated by a comma, i.e ``chmod u+x,g+r,o+w [filename]``
+
+### 7. Everybody!
+- you can also combine users if the mode changed is the same i.e ``chmod ugo+x [filename]`` to make the file executable for the user(u), group owner(g), and other users(o)
+
+### 8. James Bond
+- Chmod can also be used with octal numbers i.e 007 ``chmod 007 [filename]``
+
+### 9. John Doe
+- This was a custom assignment to change a file's permissions to ``-rwxr-x-wx``
+- This is best handled using octal numbers (where rwx are represented by 1, 2, 4 respectively) but letters could also work
+- In this case, it is 753 which would be ``chmod 753 [filename]``
+
+### 10. Look in the mirror
+- This was similar to the previous task but with these permission ``-rw-rw-r--`` translating to 664
+- However, since it was a reference file that already exist, chmod also allows to copy permissions from  references using ``chmod --reference=[reference_filename] [filename]``
+
+### 11. Directories
+- Chmod also allows to change permission recursively to all files in directories
+- For this, we use the ``-R`` (recursive)
+
+### 12. More directories
+- This is a ``mkdir`` feature with ``-m`` as the permission feature
+
+### 13. Change group
+- we use ``chgrp`` to change the group owner to a certain individual like ``school`` of a file
+
+### 14. Owner and group
+- chown 

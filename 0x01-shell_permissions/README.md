@@ -63,9 +63,17 @@ Here are the tasks in this project:<br>
 ### 15. Symbolic links
 - Symbolic links are simply files that contain the PATH (Symbols to) another file or a directory (Remember, everything in a computer is either a file or a directory)
 - changing a file through the link does not affect the original file but changing the original file affects the file in the link.
-- a link allows you to view and manipulate the contents of a file in another different place, from where you are
+- a link allows you to view and manipulate the contents of a file in another different place, from where you are in the whole file system
 - in older systems (and others today), a link would simply take you to that directory where the file is, or simply open or execute the file
 
 - in our case, we treat the link as a file and assume we are changing the owner and group owner of the file using ``chown``
 
-### 
+### 16. If only
+- ``chown`` has the ability to accept arguments like ``--from`` and ``reference`` and so many others.
+- in this case, ``chown --from=[owner_of_reference_file(s)] [new_owner] [file_to_change_ownership]`` would be best appropriate reference, eve though there are other more tedious methods
+
+### 17. Star Wars
+- The ``telnet command`` is a network protocol used for remote terminal access to a server or another computer over a network. It allows users to interact with a remote system's command-line interface as if they were physically present at that machine.
+- In the case of playing Star Wars in the terminal, the telnet command is used to connect to a specific server(technically a computer), towel.blinkenlights.nl. When you run the ``command telnet towel.blinkenlights.nl``, your terminal establishes a connection with this server.
+- The Star Wars ASCII art is not a pre-stored file but is generated dynamically by a program running on the server. As characters are sent over the network from the server to your terminal, they create the visual representation of the Star Wars movie through ASCII art.
+- While ``telnet`` provides a basic form of remote access to a server's command-line interface, it lacks the advanced features, security, and graphical user interfaces offered by modern remote desktop applications like AnyDesk. These applications provide a more comprehensive and user-friendly experience for remote access and control.

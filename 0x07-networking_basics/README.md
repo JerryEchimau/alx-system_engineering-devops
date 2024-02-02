@@ -18,16 +18,18 @@ Here are the tasks we did in this project:
 ### 1. Types of network
 [1-types_of_network](https://github.com/JerryEchimau/alx-system_engineering-devops/blob/master/0x07-networking_basics/1-types_of_network): a file answering the following questions:
 1. What type of network a computer in local is connected to?
-	Internet
-	WAN
-	LAN
+	1. Internet
+	2. WAN
+	3. LAN
 
 2. What type of network could connect an office in one building to another office in a building a few streets away?
-	Internet
-	WAN
-	LAN
+	1. Internet
+	2. WAN
+	3. LAN
 
 3. What network do you use when you browse www.google.com from your smartphone (not connected to the Wifi)?
-	Internet
-	WAN
-	LAN
+	1. Internet
+	2. WAN
+	3. LAN
+### 2. MAC and IP address
+

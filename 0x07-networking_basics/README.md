@@ -1,0 +1,18 @@
+# 0x07. Networking basics #0
+In this project, we were introduced to networking basics and the OSI model <br>
+
+Here are the tasks we did in this project:
+## Tasks
+### 0. OSI model
+- 0-OSI_model: a file answering the questions that follow:<br>
+1. What is the OSI model?
+	1. Set of specifications that network hardware manufacturers must respect
+	2. The OSI model is a conceptual model that characterizes the communication functions of a telecommunication system without regard to their underlying internal structure and technology
+	3. The OSI model is a model that characterizes the communication functions of a telecommunication system with a strong regard for their underlying internal structure and technology
+
+2. How is the OSI model organized?
+	1. Alphabetically
+	2. From the lowest to the highest level
+	3. Randomly
+
+### 

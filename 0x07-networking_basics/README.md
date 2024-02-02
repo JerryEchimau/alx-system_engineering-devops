@@ -2,7 +2,7 @@
 In this project, we were introduced to networking basics and the OSI model <br>
 
 Here are the tasks we did in this project:
-## Tasks
+## Tasks :clipboard:
 ### 0. OSI model
 [0-OSI_model](https://github.com/JerryEchimau/alx-system_engineering-devops/blob/master/0x07-networking_basics/0-OSI_model): a file answering the following questions:<br>
 1. What is the OSI model?
@@ -32,4 +32,16 @@ Here are the tasks we did in this project:
 	2. WAN
 	3. LAN
 ### 2. MAC and IP address
+[2-MAC_and_IP_address](https://github.com/JerryEchimau/alx-system_engineering-devops/blob/master/0x07-networking_basics/2-MAC_and_IP_address): a file answering the following questions:
+1. What is a MAC address?
+	1. The name of a network interface
+	2. The unique identifier of a network interface
+	3. A network interface
 
+2. What is an IP address?
+	1. Is to devices connected to a network what postal address is to houses
+	2. The unique identifier of a network interface
+	3. Is a number that network devices use to connect to networks
+
+### 3. UDP and TCP
+[3-UDP_and_TCP](

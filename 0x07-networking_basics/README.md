@@ -61,4 +61,4 @@ Here are the tasks we did in this project:
 - And shows the PID and name of the program to which each socket belongs
 
 ### 5. Is the host on the network
-[5-is_the_host_on_the_network](
+[5-is_the_host_on_the_network](https://github.com/JerryEchimau/alx-system_engineering-devops/blob/master/0x07-networking_basics/5-is_the_host_on_the_network): a file that pings a network 5 times

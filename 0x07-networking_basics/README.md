@@ -56,4 +56,9 @@ Here are the tasks we did in this project:
 	2. May I increase the rate at which I am sending you boxes?
 
 ### 4. TCP and UDP ports
-[4-TCP_and_UDP_ports](
+[4-TCP_and_UDP_ports](https://github.com/JerryEchimau/alx-system_engineering-devops/blob/master/0x07-networking_basics/4-TCP_and_UDP_ports): an executable file that displays listening ports
+- Displays only listening socket
+- And shows the PID and name of the program to which each socket belongs
+
+### 5. Is the host on the network
+[5-is_the_host_on_the_network](

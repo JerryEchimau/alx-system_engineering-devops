@@ -24,4 +24,12 @@
 
 ### 4. Repetition Token #3
 
--
+-here, we use the quantifier ``*``, which means that it will match 0 or more occurences of the preceding element
+
+### 5. Not quite HBTN yet
+
+- here, we use ``^`` to match the beginning of a string and ``$`` to match the end
+- We then use ``.`` in between ``h`` and ``n`` to match any character except newline
+
+### 6. Call me maybe
+

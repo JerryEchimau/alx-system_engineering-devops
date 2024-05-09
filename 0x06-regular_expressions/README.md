@@ -20,4 +20,8 @@
 
 ### 3. Repetition Token #2
 
-- 
+- Here, we use the quantifier ``+`` , which means that it will match 1 or more occurences of the preceding element
+
+### 4. Repetition Token #3
+
+-

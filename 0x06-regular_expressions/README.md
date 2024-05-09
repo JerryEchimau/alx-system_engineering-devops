@@ -38,4 +38,4 @@
 
 ### 7. OMG WHY ARE YOU SHOUTING?
 
-- 
+- Here, we match all chars that are capital using ``[A-Z]``

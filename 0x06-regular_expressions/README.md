@@ -12,6 +12,12 @@
 
 ### 1. Repetition Token #0
 
-- Here, we use the quantifier ``{n, m}`` to match t from range 2 to 5
+- Here, we use the quantifier ``{n,m}`` to match t from range 2 to 5
 
 ### 2. Repetition Token #1
+
+- Here, we use the quantifier ``?``, which means it will match zero or one occurrence of the preceding element.
+
+### 3. Repetition Token #2
+
+- 

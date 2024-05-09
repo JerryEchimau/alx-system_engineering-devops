@@ -7,4 +7,11 @@
 
 ### 0. Simply matching School
 
-- 
+- Here, simply put the words ``School`` within the //
+- This matches the regular expression "School" in any text
+
+### 1. Repetition Token #0
+
+- Here, we use the quantifier ``{n, m}`` to match t from range 2 to 5
+
+### 2. Repetition Token #1

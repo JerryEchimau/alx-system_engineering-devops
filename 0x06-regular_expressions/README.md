@@ -35,3 +35,7 @@
 
 - Here, we use ``^`` and ``$`` to only take in digits from the beginning to end and nothing else
 - We also use ``\d`` to match digits and use quatifiers ``{n,m}`` to limit to 10 digits
+
+### 7. OMG WHY ARE YOU SHOUTING?
+
+- 

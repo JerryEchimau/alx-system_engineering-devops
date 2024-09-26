@@ -1,37 +1,27 @@
 #!/usr/bin/python3
 """
-Module to recursively fetch and return titles of all hot posts from a subreddit.
+This module defines a function to get the number of subscribers to a subreddit.
 """
 import requests
 
 
-def recurse(subreddit, hot_list=[], after=None):
+def number_of_subscribers(subreddit):
     """
-    Recursively queries the Reddit API to retrieve titles of all hot posts for a subreddit.
+    Queries the Reddit API and returns the number of subscribers for a given subreddit.
 
     Args:
         subreddit (str): The name of the subreddit.
-        hot_list (list, optional): List to store the titles. Defaults to [].
-        after (str, optional): Used for pagination, indicating the next page. Defaults to None.
 
     Returns:
-        list: List of titles of hot posts, or None if invalid subreddit.
+        int: The number of subscribers, or 0 if the subreddit is invalid.
     """
-    url = f"https://www.reddit.com/r/{subreddit}/hot.json?limit=100"
-    if after:
-        url += f"&after={after}"
+    url = f"https://www.reddit.com/r/{subreddit}/about.json"
     headers = {'User-Agent': 'Mozilla/5.0'}
     response = requests.get(url, headers=headers)
 
     if response.status_code == 200:
-        data = response.json()['data']
-        posts = data['children']
-        for post in posts:
-            hot_list.append(post['data']['title'])
-        if data['after']:
-            return recurse(subreddit, hot_list, data['after'])
-        else:
-            return hot_list
+        data = response.json()
+        return data['data']['subscribers']
     else:
-        return None
+        return 0
 

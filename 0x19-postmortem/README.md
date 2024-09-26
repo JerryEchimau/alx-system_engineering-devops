@@ -1,4 +1,4 @@
-# The Case of the Vanishing Images
+# When a Picture Wasn't Worth a Thousand Words (More like a Thousand Errors! :smile:
 ## Issue Summary:
 
 On July 20th, 2023, between 10:00 AM - 11:30 AM PST, our e-commerce platform experienced a partial outage affecting image delivery. Customers reported seeing broken image icons on product pages, impacting approximately 70% of users. The root cause was identified as insufficient disk space on the image server due to an unmonitored log file growing excessively.
